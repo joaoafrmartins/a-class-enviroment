@@ -1,0 +1,28 @@
+{
+  "name": "a-class-enviroment",
+  "version": "0.0.0",
+  "main": "lib/main",
+  "description": "A Class Enviroment",
+  "keywords": [
+    "a",
+    "class",
+    "enviroment"
+  ],
+  "dependencies": {
+    "mixto": ""
+  },
+  "devDependencies": {
+    "kosher": ""
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --compilers coffee:coffee-script/register ./spec"
+  },
+  "homepage": "https://github.com/joaoafrmartins/a-class-enviroment",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaoafrmartins/a-class-enviroment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joaoafrmartins/a-class-enviroment/issues"
+  }
+}
